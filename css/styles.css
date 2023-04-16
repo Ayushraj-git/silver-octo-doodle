@@ -1,0 +1,93 @@
+.flex-container{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+.button1{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: navy;
+    height: fit-content;
+    color: white;
+    float: right;
+    
+}
+.button1:hover{
+    background-color: white;
+    color: navy;
+    border: 1 1 1 1;
+    border-color: navy;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    
+    flex-grow: 3;
+}
+
+
+.intro{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.content1{
+    order: 1;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img1{
+    order: 2;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(50%,1fr));
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.img2,.img3,.img4,.img5{
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
+.conclusion{
+    background-color: #DAF5FF;
+   
+    
+}
+.button3{
+    height: max-content;
+    width: max-content;
+    background-color: navy;
+    color: white;
+}
+.button3:hover{
+    background-color: white;
+    color: navy;
+    cursor: pointer;
+}
+body{
+    
+    margin-bottom: 0%;
+}
